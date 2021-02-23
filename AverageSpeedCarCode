@@ -1,0 +1,27 @@
+Code a linear solution to find the average speed a car must run before finishing the line within an elapsed time.
+The distance traveled would be given in meters and the time elapsed would be given in seconds.
+Your output should be km/hrs.
+对线性解决方案进行编码，以找出汽车在经过的时间内完成线路之前必须行驶的平均速度。
+
+
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+speed = int(input())
+light_count = int(raw_input())
+for i in xrange(light_count):
+    distance, duration = [int(j) for j in input().split()]
+
+# Write an action using print
+
+    print(distance)
+    print(duration)
+    dist=distance/1000
+    dur=duration/3600  
+
+    sp=dist/dur
+ 
+    print(sp)
