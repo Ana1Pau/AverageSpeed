@@ -11,8 +11,8 @@ import math
 # the standard input according to the problem statement.
 
 speed = int(input())
-light_count = int(raw_input())
-for i in xrange(light_count):
+
+
     distance, duration = [int(j) for j in input().split()]
 
 # Write an action using print
